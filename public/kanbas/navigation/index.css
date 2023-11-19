@@ -1,0 +1,117 @@
+.wd-kanbas.list-group {
+  border-radius: 0%;
+  border-color: black;
+  padding-left: 0px;
+}
+
+.wd-kanbas.list-group > .list-group-item {
+  background-color: black;
+  border-color: black;
+  text-align: center;
+  padding: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  color: white;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+.wd-kanbas.list-group > .list-group-item.active {
+  background-color: white;
+  border-color: white;
+  color: rgb(200, 53, 53);
+}
+
+.wd-kanbas.list-group > .list-group-item > i {
+  font-size: 2em;
+  color: rgb(200, 53, 53);
+}
+
+.wd-width-75px {
+  width: 75px;
+}
+
+.wd-width-85px {
+  width: 85px;
+}
+
+.wd-width-600px {
+  width: 600px;
+}
+
+td {
+  padding: 0px;
+}
+
+.wd-kanbas.list-group > .list-group-item.white {
+  background-color: white;
+  border-color: white;
+  text-align: left;
+  padding-left: 8px;
+
+  color: rgb(200, 53, 53);
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+.wd-width-190px {
+  width: 190px;
+}
+
+.wd-kanbas.list-group > .list-group-item.white.active {
+  color: black;
+  border-left: black solid;
+  border-width: 3px;
+}
+
+.wd-kanbas.link-to {
+  color: rgb(200, 53, 53);
+  text-decoration: none;
+}
+
+.wd-kanbas.padded-bottom-left {
+  padding-bottom: 100px;
+  padding-left: 100px;
+}
+
+.wd-kanbas.ml-25 {
+  margin-left: 25px;
+}
+
+.wd-kanbas.square {
+  width: 248px;
+  height: 160px;
+}
+
+.wd-kanbas.card-container {
+  max-width: 1100px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-right: 30px;
+  gap: 30px;
+}
+
+.wd-kanbas.card-size {
+  width: 250px;
+  height: 350px;
+}
+
+.wd-kanbas.course-status {
+  width: 280px;
+  height: 40px;
+  color: black;
+  border: none;
+  text-align: left;
+  padding-left: 15px;
+}
+
+.wd-kanbas.black-banner {
+  background-color: black;
+  color: white;
+}
+
+.nav-item {
+  font-size: 0.9rem;
+}

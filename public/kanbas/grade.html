@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Assignment Home</title>
+  <link rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.css" />
+  <link rel="stylesheet" href="../vendors/fontawesome/css/all.css" />
+  <link rel="stylesheet" href="navigation/index.css" />
+</head>
+
+<body>
+  <div class="d-flex flex-row pb-2">
+    <!--Kanbas Navigation Side Bar-->
+    <div class="wd-kanbas list-group wd-width-85px" style="background-color: black">
+      <a href="https://www.northeastern.edu/" class="list-group-item fs-1 text-danger">
+        <h2>N</h2>
+      </a>
+      <a href="account.html" class="list-group-item">
+        <i class="fa fa-user-circle" style="color: gray"></i><br />
+        Account
+      </a>
+      <a href="dashboard/index.html" class="list-group-item">
+        <i class="fa fa-tachometer-alt"></i><br />
+        Dashboard
+      </a>
+      <a href="courses.html" class="list-group-item active">
+        <i class="fa fa-book"></i><br />
+        Courses
+      </a>
+      <a href="#" class="list-group-item">
+        <i class="far fa-calendar-alt"></i><br />
+        Calendar
+      </a>
+      <a href="#" class="list-group-item">
+        <i class="fa fa-inbox"></i><br />
+        Inbox
+      </a>
+      <a href="#" class="list-group-item">
+        <i class="fa fa-history"></i><br />
+        History
+      </a>
+      <a href="#" class="list-group-item">
+        <i class="fa fa-desktop"></i><br />
+        Studio
+      </a>
+      <a href="#" class="list-group-item">
+        <i class="fa fa-sign-out-alt"></i><br />
+        Commons
+      </a>
+      <a href="#" class="list-group-item">
+        <i class="far fa-question-circle"></i><br />
+        Help
+      </a>
+    </div>
+    <!--Course Navigation Side Bar-->
+    <div class="mt-4 container-fluid">
+      <div class="wd-kanbas ml-25">
+        <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
+          <h5>
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item">
+                <i class="fa fa-bars me-4" style="color: brown"></i>
+                <a href="#" style="color: brown; text-decoration: none">CS5610.11744.202310</a>
+              </li>
+              <li class="breadcrumb-item active" aria-current="page">
+                Grades
+              </li>
+            </ol>
+          </h5>
+        </nav>
+        <hr />
+      </div>
+
+      <div class="d-flex flex-row">
+        <div class="wd-kanbas ml-25 me-4">
+          <div class="wd-kanbas list-group wd-width-190px">
+            <p class="list-group-item white" style="color: gray; font-size: 0.8em">
+              202310_2 Fall 2022 Semest...
+            </p>
+            <a href="home.html" class="list-group-item white">Home</a>
+            <a href="#" class="list-group-item white">Modules</a>
+            <a href="#" class="list-group-item white">Piazza</a>
+            <a href="#" class="list-group-item white">Zoom Meeting</a>
+            <a href="assignments/index.html" class="list-group-item white">Assignments</a>
+            <a href="#" class="list-group-item white">Quizzes</a>
+            <a href="grade.html" class="list-group-item white active">Grades</a>
+            <a href="#" class="list-group-item white">People</a>
+            <a href="#" class="list-group-item white">Panopto Video</a>
+            <a href="#" class="list-group-item white">Discussions
+              <i class="fa fa-eye-slash float-end" style="font-size: 0.8em; color: gray"></i>
+            </a>
+            <a href="#" class="list-group-item white">Announcements
+              <i class="fa fa-eye-slash float-end" style="font-size: 0.8em; color: gray"></i>
+            </a>
+            <a href="#" class="list-group-item white">Pages
+              <i class="fa fa-eye-slash float-end" style="font-size: 0.8em; color: gray"></i>
+            </a>
+            <a href="#" class="list-group-item white">Files
+              <i class="fa fa-eye-slash float-end" style="font-size: 0.8em; color: gray"></i>
+            </a>
+            <a href="#" class="list-group-item white">Rubrics
+              <i class="fa fa-eye-slash float-end" style="font-size: 0.8em; color: gray"></i>
+            </a>
+            <a href="#" class="list-group-item white">Outcomes
+              <i class="fa fa-eye-slash float-end" style="font-size: 0.8em; color: gray"></i>
+            </a>
+            <a href="#" class="list-group-item white">Collaborations
+              <i class="fa fa-eye-slash float-end" style="font-size: 0.8em; color: gray"></i>
+            </a>
+            <a href="#" class="list-group-item white">Syllabus
+              <i class="fa fa-eye-slash float-end" style="font-size: 0.8em; color: gray"></i>
+            </a>
+            <a href="settings/index.html" class="list-group-item white">Settings</a>
+          </div>
+        </div>
+        <div class="pe-1 ps-5 container-fluid">
+          <div class="pb-4">
+            <div class="float-end" style="display: inline-flex">
+              <button class="btn btn-secondary" style="color: black; border: none; ">
+                <i class="fas fa-file-import"></i>
+                Import
+              </button>
+              <div class="dropdown ps-2 pe-1">
+                <button class="btn btn-secondary dropdown-toggle me-1" type="button" data-bs-toggle="dropdown"
+                  aria-expanded="false" style="color: black; border: none;">
+                  <i class="fas fa-file-export fa-flip-horizontal"></i>
+                  Export
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Export</a></li>
+                </ul>
+              </div>
+              <button class="btn btn-secondary me-1" style=" border: none;">
+                <a href="#">
+                  <i class="fas fa-cog" style="color: black"></i></a>
+              </button>
+            </div>
+          </div>
+
+          <div class="container-fluid pt-3">
+            <div class="row pt-3">
+              <div class="col-6">
+                <label for="search-fields-student-names" class="form-label pb-1"><strong>Student Names</strong> </label>
+                <div class="input-group" id="search-fields-student-names">
+                  <span class="input-group-text" style="background-color: white; border-right: none;">
+                    <i class="fas fa-search"></i>
+                  </span>
+                  <input type="text" class="form-control" style="border-right: none; border-left: none;"
+                    placeholder="Search Students">
+                  <span class="input-group-text float-end" style="background-color: white; border-left: none;">
+                    <i class="fas fa-chevron-down"></i>
+                  </span>
+                </div>
+              </div>
+              <div class="col-6">
+                <label for="search-fields-assignment-names" class="form-label pb-1"><strong>Assignment Names</strong>
+                </label>
+                <div class="input-group" id="search-fields-assignment-names">
+                  <span class="input-group-text" style="background-color: white; border-right: none;">
+                    <i class="fas fa-search"></i>
+                  </span>
+                  <input type="text" class="form-control" style="border-right: none; border-left: none;"
+                    placeholder="Search Assignments">
+                  <span class="input-group-text float-end" style="background-color: white; border-left: none;">
+                    <i class="fas fa-chevron-down"></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="pt-3">
+              <button class="btn btn-secondary" style=" border: none; color: black">
+                <a href="#">
+                  <i class="fas fa-filter" style="color: black"></i></a>
+                Apply Filters
+              </button>
+            </div>
+            <div class="pt-3">
+              <table class="table table-striped table-responsive table-bordered ">
+                <tbody style="vertical-align: middle">
+                  <tr style="white-space: nowrap;">
+                    <th scope="col" class="ps-3 pe-5" >
+                      Student Name
+                    </th>
+                    <td scope="col" class="text-center ps-5 pe-5">
+                      A1 SETUP
+                      <br />
+                      <span style="font-size: small;">Out of 100</span>
+                    </td>
+                    <td scope="col" class="text-center ps-5 pe-5">
+                      A2 HTML
+                      <br />
+                      <span style="font-size: small;">Out of 100</span>
+                    </td>
+                    <td scope="col" class="text-center ps-5 pe-5">
+                      A3 CSS
+                      <br />
+                      <span style="font-size: small;">Out of 100</span>
+                    </td>
+                    <td scope="col" class="text-center ps-4 pe-4">
+                      A4 BOOTSTRAP
+                      <br />
+                      <span style="font-size: small;">Out of 100</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td scope="row">
+                      <a href="#" class="wd-kanbas link-to ms-2">
+                        Doxa Asibey
+                      </a>
+                    </td>
+                    <td class="text-center">100%</td>
+                    <td>
+                      <div class="input-group">
+                        <input type="text" class="form-control me-1" style="width: 60px;"
+                          value="91.5%">
+                        <span class="input-group-text ms-1" >
+                          <i class="fas fa-arrow-circle-right fa-sm"></i>
+                        </span>
+                      </div>
+                    </td>
+                    <td class="text-center">100%</td>
+                    <td class="text-center">100%</td>
+                  </tr>
+                  <tr>
+                    <td scope="row">
+                      <a href="#" class="wd-kanbas link-to ms-2">
+                        Doxa Asibey
+                      </a>
+                    </td>
+                    <td class="text-center">100%</td>
+                    <td>
+                      <div class="input-group">
+                        <input type="text" class="form-control me-1" style="width: 60px;"
+                          value="91.5%">
+                        <span class="input-group-text ms-1" >
+                          <i class="fas fa-arrow-circle-right fa-sm"></i>
+                        </span>
+                      </div>
+                    </td>
+                    <td class="text-center">100%</td>
+                    <td class="text-center">100%</td>
+                  </tr>
+
+                  <tr>
+                    <td scope="row">
+                      <a href="#" class="wd-kanbas link-to ms-2">
+                        Doxa Asibey
+                      </a>
+                    </td>
+                    <td class="text-center">100%</td>
+                    <td>
+                      <div class="input-group">
+                        <input type="text" class="form-control me-1" style="width: 60px;"
+                          value="91.5%">
+                        <span class="input-group-text ms-1" >
+                          <i class="fas fa-arrow-circle-right fa-sm"></i>
+                        </span>
+                      </div>
+                    </td>
+                    <td class="text-center">100%</td>
+                    <td class="text-center">100%</td>
+                  </tr>
+
+                  <tr>
+                    <td scope="row">
+                      <a href="#" class="wd-kanbas link-to ms-2">
+                        Doxa Asibey
+                      </a>
+                    </td>
+                    <td class="text-center">100%</td>
+                    <td>
+                      <div class="input-group">
+                        <input type="text" class="form-control me-1" style="width: 60px;"
+                          value="91.5%">
+                        <span class="input-group-text ms-1" >
+                          <i class="fas fa-arrow-circle-right fa-sm"></i>
+                        </span>
+                      </div>
+                    </td>
+                    <td class="text-center">100%</td>
+                    <td class="text-center">100%</td>
+                  </tr>
+
+                  <tr>
+                    <td scope="row">
+                      <a href="#" class="wd-kanbas link-to ms-2">
+                        Doxa Asibey
+                      </a>
+                    </td>
+                    <td class="text-center">100%</td>
+                    <td>
+                      <div class="input-group">
+                        <input type="text" class="form-control me-1" style="width: 60px;"
+                          value="91.5%">
+                        <span class="input-group-text ms-1" >
+                          <i class="fas fa-arrow-circle-right fa-sm"></i>
+                        </span>
+                      </div>
+                    </td>
+                    <td class="text-center">100%</td>
+                    <td class="text-center">100%</td>
+                  </tr>
+
+                  <tr>
+                    <td scope="row">
+                      <a href="#" class="wd-kanbas link-to ms-2">
+                        Doxa Asibey
+                      </a>
+                    </td>
+                    <td class="text-center">100%</td>
+                    <td>
+                      <div class="input-group">
+                        <input type="text" class="form-control me-1" style="width: 60px;"
+                          value="91.5%">
+                        <span class="input-group-text ms-1" >
+                          <i class="fas fa-arrow-circle-right fa-sm"></i>
+                        </span>
+                      </div>
+                    </td>
+                    <td class="text-center">100%</td>
+                    <td class="text-center">100%</td>
+                  </tr>
+
+                  <tr>
+                    <td scope="row">
+                      <a href="#" class="wd-kanbas link-to ms-2">
+                        Doxa Asibey
+                      </a>
+                    </td>
+                    <td class="text-center">100%</td>
+                    <td>
+                      <div class="input-group">
+                        <input type="text" class="form-control me-1" style="width: 60px;"
+                          value="91.5%">
+                        <span class="input-group-text ms-1" >
+                          <i class="fas fa-arrow-circle-right fa-sm"></i>
+                        </span>
+                      </div>
+                    </td>
+                    <td class="text-center">100%</td>
+                    <td class="text-center">100%</td>
+                  </tr>
+
+                  <tr>
+                    <td scope="row">
+                      <a href="#" class="wd-kanbas link-to ms-2">
+                        Doxa Asibey
+                      </a>
+                    </td>
+                    <td class="text-center">100%</td>
+                    <td>
+                      <div class="input-group">
+                        <input type="text" class="form-control me-1" style="width: 60px;"
+                          value="91.5%">
+                        <span class="input-group-text ms-1" >
+                          <i class="fas fa-arrow-circle-right fa-sm"></i>
+                        </span>
+                      </div>
+                    </td>
+                    <td class="text-center">100%</td>
+                    <td class="text-center">100%</td>
+                  </tr>
+
+                  <tr>
+                    <td scope="row">
+                      <a href="#" class="wd-kanbas link-to ms-2">
+                        Doxa Asibey
+                      </a>
+                    </td>
+                    <td class="text-center">100%</td>
+                    <td>
+                      <div class="input-group">
+                        <input type="text" class="form-control me-1" style="width: 60px;"
+                          value="91.5%">
+                        <span class="input-group-text ms-1" >
+                          <i class="fas fa-arrow-circle-right fa-sm"></i>
+                        </span>
+                      </div>
+                    </td>
+                    <td class="text-center">100%</td>
+                    <td class="text-center">100%</td>
+                  </tr>
+
+                  <tr>
+                    <td scope="row">
+                      <a href="#" class="wd-kanbas link-to ms-2">
+                        Doxa Asibey
+                      </a>
+                    </td>
+                    <td class="text-center">100%</td>
+                    <td>
+                      <div class="input-group">
+                        <input type="text" class="form-control me-1" style="width: 60px;"
+                          value="91.5%">
+                        <span class="input-group-text ms-1" >
+                          <i class="fas fa-arrow-circle-right fa-sm"></i>
+                        </span>
+                      </div>
+                    </td>
+                    <td class="text-center">100%</td>
+                    <td class="text-center">100%</td>
+                  </tr>
+
+                  <tr>
+                    <td scope="row">
+                      <a href="#" class="wd-kanbas link-to ms-2">
+                        Doxa Asibey
+                      </a>
+                    </td>
+                    <td class="text-center">100%</td>
+                    <td>
+                      <div class="input-group">
+                        <input type="text" class="form-control me-1" style="width: 60px;"
+                          value="91.5%">
+                        <span class="input-group-text ms-1" >
+                          <i class="fas fa-arrow-circle-right fa-sm"></i>
+                        </span>
+                      </div>
+                    </td>
+                    <td class="text-center">100%</td>
+                    <td class="text-center">100%</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <script src="../vendors/bootstrap/js/bootstrap.bundle.js"></script>
+</body>
+</html>

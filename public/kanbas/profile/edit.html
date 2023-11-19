@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Edit Account Profile</title>
+    <link rel="stylesheet" href="../../vendors/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="../../vendors/fontawesome/css/all.css" />
+    <link rel="stylesheet" href="../navigation/index.css" />
+  </head>
+
+  <body>
+    <div class="d-flex flex-row">
+      <!--Kanbas Navigation Side Bar-->
+
+      <div
+        class="wd-kanbas list-group wd-width-85px"
+        style="background-color: black"
+      >
+        <a
+          href="https://www.northeastern.edu/"
+          class="list-group-item fs-1 text-danger"
+        >
+          N
+        </a>
+        <a href="../account.html" class="list-group-item active">
+          <i class="fa fa-user-circle" style="color: gray"></i><br />
+          Account
+        </a>
+        <a href="../dashboard/index.html" class="list-group-item">
+          <i class="fa fa-tachometer-alt"></i><br />
+          Dashboard
+        </a>
+        <a href="../courses.html" class="list-group-item">
+          <i class="fa fa-book"></i><br />
+          Courses
+        </a>
+        <a href="#" class="list-group-item">
+          <i class="far fa-calendar-alt"></i><br />
+          Calendar
+        </a>
+        <a href="#" class="list-group-item">
+          <i class="fa fa-inbox"></i><br />
+          Inbox
+        </a>
+        <a href="#" class="list-group-item">
+          <i class="fa fa-history"></i><br />
+          History
+        </a>
+        <a href="#" class="list-group-item">
+          <i class="fa fa-desktop"></i><br />
+          Studio
+        </a>
+        <a href="#" class="list-group-item">
+          <i class="fa fa-sign-out-alt"></i><br />
+          Commons
+        </a>
+        <a href="#" class="list-group-item">
+          <i class="far fa-question-circle"></i><br />
+          Help
+        </a>
+      </div>
+      <!--Course Navigation Side Bar-->
+      <div class="mt-4 container-fluid">
+        <div class="wd-kanbas ml-25">
+          <h4>
+            <i class="fa fa-bars me-4" style="color: brown"></i>
+            Jose Annunziato's Profile
+            <hr />
+          </h4>
+        </div>
+        <div class="wd-kanbas ml-25 d-flex flex-row">
+          <div class="wd-kanbas list-group wd-width-190px">
+            <a href="#" class="list-group-item white">Notifications</a>
+
+            <a href="index.html" class="list-group-item white active"
+              >Profile</a
+            >
+
+            <a href="#" class="list-group-item white">Files</a>
+            <a href="#" class="list-group-item white">Settings</a>
+
+            <a href="#" class="list-group-item white">ePortfolios</a>
+
+            <a href="#" class="list-group-item white">Shared Content</a>
+
+            <a href="#" class="list-group-item white">The Hub</a>
+
+            <a href="#" class="list-group-item white">Qwickly Course Tools</a>
+
+            <a href="#" class="list-group-item white">Global Announcements</a>
+          </div>
+          <div class="ms-5 container-fluid">
+            <div>
+              <!-- Edit Profile Button -->
+              <i
+                class="fa fa-user-circle fa-6x"
+                style="color: rgb(190, 188, 188)"
+              ></i>
+            </div>
+
+            <div class="mt-2 mb-4">
+              <label for="edit-profile-name" class="form-label">Name:*</label>
+              <input
+                type="name"
+                class="form-control"
+                id="edit-profile-name"
+                placeholder="Jose Annunziato"
+              />
+              <label for="edit-profile-pronouns" class="form-label mt-2"
+                >Pronouns:</label
+              >
+              <select class="form-select">
+                <option selected>None</option>
+                <option>She/Her</option>
+                <option>He/Him</option>
+                <option>They/Them</option>
+              </select>
+              <label for="edit-profile-title" class="form-label mt-2"
+                >Title:</label
+              >
+              <input
+                type="title"
+                class="form-control"
+                id="edit-profile-title"
+                placeholder="Jose Annunziato"
+              />
+            </div>
+
+            <div class="mb-4">
+              <h3>Contact</h3>
+              No registered services, you can add some on the
+              <a href="#" class="wd-kanbas link-to">settings</a> page.
+            </div>
+
+            <div class="mb-4">
+              <label for="edit-profile-biography" class="form-label"
+                ><h3>Biography</h3></label
+              >
+              <textarea
+                class="form-control"
+                rows="4"
+                placeholder="Faculty, SWE, AI, Space, and renewable enthusiast."
+              ></textarea>
+            </div>
+
+            <div>
+              <h3>Links</h3>
+              <div class="d-flex flex-row mb-1">
+                <div class="text-center">
+                  <label for="edit-profile-links-title" class="form-label mt-1"
+                    >Title</label
+                  >
+                  <input
+                    type="title"
+                    class="form-control"
+                    id="edit-profile-links-title"
+                    placeholder="Youtube"
+                  />
+                </div>
+                <div class="d-flex m-1 mt-5">
+                  <i class="fa fa-arrow-right"></i>
+                </div>
+                <div class="text-center">
+                  <label for="edit-profile-links-url" class="form-label mt-1"
+                    >URL</label
+                  >
+                  <div class="input-group">
+                    <input
+                      type="url"
+                      class="form-control"
+                      id="edit-profile-links-url"
+                      placeholder="https://www.youtube.com"
+                    />
+                    <div class="d-flex align-items-center ms-1">
+                      <a href="#">
+                        <i
+                          class="fa fa-times"
+                          style="color: rgb(200, 53, 53)"
+                        ></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a href="#" style="text-decoration: none">
+                <button
+                  class="btn btn-primary"
+                  style="
+                    background-color: rgb(190, 188, 188);
+                    color: black;
+                    border: none;
+                    text-decoration: none;
+                  "
+                >
+                  Add another link
+                </button>
+              </a>
+            </div>
+            <hr />
+            <div class="float-end">
+              <a href="index.html" class="p-1" style="text-decoration: none">
+                <button
+                  class="btn btn-primary"
+                  style="
+                    background-color: rgb(190, 188, 188);
+                    color: black;
+                    border: none;
+                    text-decoration: none;
+                  "
+                >
+                  Cancel
+                </button>
+              </a>
+              <a href="index.html" class="p-1" style="text-decoration: none">
+                <button
+                  class="btn btn-primary"
+                  style="
+                    background-color: rgb(200, 53, 53);
+                    color: white;
+                    border: none;
+                    text-decoration: none;
+                  "
+                >
+                  Save Profile
+                </button>
+              </a>
+            </div>
+          </div>
+          <div>
+            <a href="index.html" class="p-2">
+              <button
+                class="btn btn-primary"
+                style="
+                  width: 160px;
+                  background-color: rgb(190, 188, 188);
+                  color: black;
+                  border: none;
+                "
+              >
+                <i class="fa fa-pencil-alt fa-flip-horizontal"></i>
+                Cancel Editing
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

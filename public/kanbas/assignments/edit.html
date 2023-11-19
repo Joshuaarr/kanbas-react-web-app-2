@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Edit Assignment</title>
+    <link rel="stylesheet" href="../../vendors/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="../../vendors/fontawesome/css/all.css" />
+    <link rel="stylesheet" href="../navigation/index.css" />
+  </head>
+
+  <body>
+    <div class="d-flex flex-row pb-2">
+      <!--Kanbas Navigation Side Bar-->
+      <div
+        class="wd-kanbas list-group wd-width-85px"
+        style="background-color: black"
+      >
+        <a
+          href="https://www.northeastern.edu/"
+          class="list-group-item fs-1 text-danger"
+        >
+          <h2>N</h2>
+        </a>
+        <a href="../account.html" class="list-group-item">
+          <i class="fa fa-user-circle" style="color: gray"></i><br />
+          Account
+        </a>
+        <a href="../dashboard/index.html" class="list-group-item">
+          <i class="fa fa-tachometer-alt"></i><br />
+          Dashboard
+        </a>
+        <a href="../courses.html" class="list-group-item active">
+          <i class="fa fa-book"></i><br />
+          Courses
+        </a>
+        <a href="#" class="list-group-item">
+          <i class="far fa-calendar-alt"></i><br />
+          Calendar
+        </a>
+        <a href="#" class="list-group-item">
+          <i class="fa fa-inbox"></i><br />
+          Inbox
+        </a>
+        <a href="#" class="list-group-item">
+          <i class="fa fa-history"></i><br />
+          History
+        </a>
+        <a href="#" class="list-group-item">
+          <i class="fa fa-desktop"></i><br />
+          Studio
+        </a>
+        <a href="#" class="list-group-item">
+          <i class="fa fa-sign-out-alt"></i><br />
+          Commons
+        </a>
+        <a href="#" class="list-group-item">
+          <i class="far fa-question-circle"></i><br />
+          Help
+        </a>
+      </div>
+      <!--Course Navigation Side Bar-->
+      <div class="mt-4 container-fluid">
+        <div class="wd-kanbas ml-25">
+          <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
+            <h5>
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                  <i class="fa fa-bars me-4" style="color: brown"></i>
+                  <a href="#" style="color: brown; text-decoration: none"
+                    >CS5610.11744.202310</a
+                  >
+                </li>
+                <li class="breadcrumb-item active" aria-current="page">
+                  <a href="#" style="color: brown; text-decoration: none"
+                    >Assignments</a
+                  >
+                </li>
+                <li class="breadcrumb-item active" aria-current="page">
+                  A1 - ENV + ...
+                </li>
+              </ol>
+            </h5>
+          </nav>
+          <hr />
+        </div>
+
+        <div class="d-flex flex-row">
+          <div class="wd-kanbas ml-25 me-4">
+            <div class="wd-kanbas list-group wd-width-190px">
+              <p
+                class="list-group-item white"
+                style="color: gray; font-size: 0.8em"
+              >
+                202310_2 Fall 2022 Semest...
+              </p>
+              <a href="../home.html" class="list-group-item white">Home</a>
+              <a href="#" class="list-group-item white">Modules</a>
+              <a href="#" class="list-group-item white">Piazza</a>
+              <a href="#" class="list-group-item white">Zoom Meeting</a>
+              <a
+                href="../assignments/index.html"
+                class="list-group-item white active"
+                >Assignments</a
+              >
+              <a href="#" class="list-group-item white">Quizzes</a>
+              <a href="../grade.html" class="list-group-item white">Grades</a>
+              <a href="#" class="list-group-item white">People</a>
+              <a href="#" class="list-group-item white">Panopto Video</a>
+              <a href="#" class="list-group-item white"
+                >Discussions
+                <i
+                  class="fa fa-eye-slash float-end"
+                  style="font-size: 0.8em; color: gray"
+                ></i>
+              </a>
+              <a href="#" class="list-group-item white"
+                >Announcements
+                <i
+                  class="fa fa-eye-slash float-end"
+                  style="font-size: 0.8em; color: gray"
+                ></i>
+              </a>
+              <a href="#" class="list-group-item white"
+                >Pages
+                <i
+                  class="fa fa-eye-slash float-end"
+                  style="font-size: 0.8em; color: gray"
+                ></i>
+              </a>
+              <a href="#" class="list-group-item white"
+                >Files
+                <i
+                  class="fa fa-eye-slash float-end"
+                  style="font-size: 0.8em; color: gray"
+                ></i>
+              </a>
+              <a href="#" class="list-group-item white"
+                >Rubrics
+                <i
+                  class="fa fa-eye-slash float-end"
+                  style="font-size: 0.8em; color: gray"
+                ></i>
+              </a>
+              <a href="#" class="list-group-item white"
+                >Outcomes
+                <i
+                  class="fa fa-eye-slash float-end"
+                  style="font-size: 0.8em; color: gray"
+                ></i>
+              </a>
+              <a href="#" class="list-group-item white"
+                >Collaborations
+                <i
+                  class="fa fa-eye-slash float-end"
+                  style="font-size: 0.8em; color: gray"
+                ></i>
+              </a>
+              <a href="#" class="list-group-item white"
+                >Syllabus
+                <i
+                  class="fa fa-eye-slash float-end"
+                  style="font-size: 0.8em; color: gray"
+                ></i>
+              </a>
+              <a href="../settings/index.html" class="list-group-item white"
+                >Settings</a
+              >
+            </div>
+          </div>
+          <div class="pe-1 ps-5 container-fluid">
+            <div class="pb-4">
+              <div class="float-end">
+                <button class="btn" style="color: green; border: none">
+                  <i class="fas fa-check-circle"></i>
+                  Published
+                </button>
+                <button
+                  class="btn btn-secondary me-1"
+                  style="border: none; font-size: small"
+                >
+                  <a href="index.html">
+                    <i class="fas fa-ellipsis-v" style="color: black"></i
+                  ></a>
+                </button>
+              </div>
+            </div>
+            <hr />
+            <div class="container-fluid">
+              <div class="pb-3">
+                <label for="text-fields-assignment-name" class="form-label pb-1"
+                  >Assignment Name</label
+                >
+                <input
+                  type="name"
+                  class="form-control pb-2"
+                  id="text-fields-assignment-name"
+                  value="A1 - ENV + HTML"
+                />
+              </div>
+              <div>
+                <textarea
+                  class="form-control pt-2"
+                  rows="4"
+                  id="text-fields-assignment-description"
+                  placeholder="This is the assignment description.."
+                ></textarea>
+              </div>
+              <div class="row pt-4 pe-5">
+                <div class="col-3" style="text-align: right">
+                  <label
+                    for="text-fields-assignment-points"
+                    class="form-label pt-1"
+                    >Points</label
+                  >
+                </div>
+                <div class="col-9">
+                  <input
+                    type="name"
+                    class="form-control pb-2"
+                    id="text-fields-assignment-points"
+                    value="100"
+                  />
+                </div>
+              </div>
+              <div class="row pt-4 pe-5">
+                <div class="col-3" style="text-align: right">
+                  <label
+                    for="text-fields-assignment-group"
+                    class="form-label pt-1"
+                    >Assignment Group</label
+                  >
+                </div>
+                <div class="col-9">
+                  <select class="form-select" id="text-fields-assignment-group">
+                    <option selected>ASSIGNMENTS</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row pt-4 pe-5">
+                <div class="col-3" style="text-align: right">
+                  <label
+                    for="text-fields-assignment-display-grade"
+                    class="form-label pt-1"
+                    >Display Grade as</label
+                  >
+                </div>
+                <div class="col-9">
+                  <select
+                    class="form-select"
+                    id="text-fields-assignment-display-gradep"
+                  >
+                    <option selected>Percentage</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row pt-4 pe-5">
+                <div class="col-3" style="text-align: right">
+                  <label
+                    for="text-fields-assignment-count-final-grade"
+                    class="form-label pt-1"
+                  ></label>
+                </div>
+                <div class="col-9">
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="text-fields-assignment-count-final-grade"
+                    />
+                    <label
+                      class="form-check-label"
+                      for="text-fields-assignment-count-final-grade"
+                    >
+                      Do not count this assignment towards the final
+                      grade</label
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="row pt-4 pe-5">
+                <div class="col-3" style="text-align: right">
+                  <label
+                    for="text-fields-assignment-submission-type"
+                    class="form-label pt-1"
+                    >Submission Type</label
+                  >
+                </div>
+                <div class="col-9">
+                  <div class="card">
+                    <div class="card-body pe-5">
+                      <select
+                        class="form-select"
+                        id="text-fields-assignment-submission-type"
+                      >
+                        <option selected>Online</option>
+                      </select>
+                    </div>
+                    <div class="ps-3">
+                      <label
+                        for="checkbox-online-entry-option"
+                        class="form-label pt-1"
+                        ><strong>Online Entry Options</strong>
+                      </label>
+                      <div class="form-check pt-2">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          id="checkbox-text-entry"
+                        />
+                        <label
+                          class="form-check-label"
+                          for="checkbox-text-entry"
+                        >
+                          Text Entry</label
+                        >
+                      </div>
+                      <div class="form-check pt-2">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          id="checkbox-website-url"
+                        />
+                        <label
+                          class="form-check-label"
+                          for="checkbox-website-url"
+                        >
+                          Website URL</label
+                        >
+                      </div>
+                      <div class="form-check pt-2">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          id="checkbox-media-recordings"
+                        />
+                        <label
+                          class="form-check-label"
+                          for="checkbox-media-recordings"
+                        >
+                          Media Recordings</label
+                        >
+                      </div>
+                      <div class="form-check pt-2">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          id="checkbox-student-annotation"
+                        />
+                        <label
+                          class="form-check-label"
+                          for="checkbox-student-annotation"
+                        >
+                          Student Annotation</label
+                        >
+                      </div>
+                      <div class="form-check pt-2 pb-3">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          id="checkbox-file-uplaods"
+                        />
+                        <label
+                          class="form-check-label"
+                          for="checkbox-file-uplaods"
+                        >
+                          File Uplaods</label
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row pt-4 pe-5">
+                <div class="col-3" style="text-align: right">
+                  <label
+                    for="text-fields-assignment-assign-to"
+                    class="form-label pt-1"
+                    >Assign</label
+                  >
+                </div>
+                <div class="col-9">
+                  <div class="card">
+                    <div class="card-body">
+                      <label
+                        for="text-fields-assignment-assign-to"
+                        class="form-label pt-1"
+                        ><strong>Assign to</strong>
+                      </label>
+                      <input
+                        type="name"
+                        class="form-control pb-2"
+                        id="text-fields-assignment-assign-to"
+                        value="Everyone"
+                      />
+                      <div class="form-group pt-1">
+                        <label
+                          for="text-fields-assignment-assign-due"
+                          class="form-label pt-1"
+                          ><strong>Due</strong>
+                        </label>
+                        <input
+                          type="datetime-local"
+                          class="form-control"
+                          id="text-fields-assignment-assign-due"
+                          value="2023-09-18T23:59"
+                        />
+                      </div>
+
+                      <div class="row pt-1">
+                        <div class="col-6">
+                          <label
+                            for="text-fields-assignment-assign-availible-from"
+                            class="form-label pt-1"
+                            ><strong>Availible from</strong>
+                          </label>
+                          <input
+                            type="datetime-local"
+                            class="form-control"
+                            id="text-fields-assignment-assign-availible-from"
+                            value="2023-09-18T23:59"
+                          />
+                        </div>
+                        <div class="col-6">
+                          <label
+                            for="text-fields-assignment-assign-until"
+                            class="form-label pt-1"
+                            ><strong>Until</strong>
+                          </label>
+                          <input
+                            type="datetime-local"
+                            class="form-control"
+                            id="text-fields-assignment-assign-until"
+                            value="2023-09-18T23:59"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <a
+                      href="#"
+                      style="
+                        color: black;
+                        text-decoration: none;
+                        display: flex;
+                        align-items: center;
+                      "
+                    >
+                      <div
+                        class="card-body"
+                        style="
+                          height: 50px;
+                          background-color: rgb(200, 200, 200);
+                          text-align: center;
+                        "
+                      >
+                        <i class="fas fa-plus"></i>
+                        Add
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div class="form-check pb-3">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                id="checkbox-file-uplaods"
+              />
+              <label class="form-check-label" for="checkbox-file-uplaods">
+                Notify users that this content has changed</label
+              >
+              <div class="float-end">
+                <a href="index.html" class="p-1" style="text-decoration: none">
+                  <button
+                    class="btn btn-primary"
+                    style="
+                      background-color: rgb(190, 188, 188);
+                      color: black;
+                      border: none;
+                      text-decoration: none;
+                    "
+                  >
+                    Cancel
+                  </button>
+                </a>
+                <a href="index.html" class="p-1" style="text-decoration: none">
+                  <button
+                    class="btn btn-primary"
+                    style="
+                      background-color: rgb(200, 53, 53);
+                      color: white;
+                      border: none;
+                      text-decoration: none;
+                    "
+                  >
+                    Save
+                  </button>
+                </a>
+              </div>
+            </div>
+            <hr />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../vendors/bootstrap/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
