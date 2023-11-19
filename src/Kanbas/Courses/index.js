@@ -19,7 +19,9 @@ import AssignmentEditor from "./Assignments/AssignmentEditor";
 import Grades from "./Grades";
 
 function Courses() {
-  const URL = "https://kanbas-node-server-app-8f8f.onrender.com/api/courses";
+  const API_BASE = process.env.REACT_APP_API_BASE;
+  const COURSES_URL = `${API_BASE}/api/courses`;
+  const URL = `${API_BASE}/api/courses`;
   const { courseId } = useParams();
   const { pathname } = useLocation();
   const [course, setCourse] = useState({});
