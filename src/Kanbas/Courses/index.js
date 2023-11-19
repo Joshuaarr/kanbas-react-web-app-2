@@ -19,7 +19,7 @@ import AssignmentEditor from "./Assignments/AssignmentEditor";
 import Grades from "./Grades";
 
 function Courses() {
-  const URL = "http://localhost:4000/api/courses";
+  const URL = "https://kanbas-node-server-app-8f8f.onrender.com/api/courses";
   const { courseId } = useParams();
   const { pathname } = useLocation();
   const [course, setCourse] = useState({});
