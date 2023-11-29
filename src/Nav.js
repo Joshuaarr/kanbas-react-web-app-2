@@ -33,6 +33,12 @@ function Nav() {
       >
         Kanbas
       </Link>
+      <Link
+        to="/project/signin"
+        className={`nav-link ${pathname.includes("project") ? "active" : ""}`}
+      >
+        Project
+      </Link>
     </nav>
   );
 }
