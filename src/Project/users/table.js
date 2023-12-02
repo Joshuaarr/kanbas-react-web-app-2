@@ -63,20 +63,34 @@ function UserTable() {
             <th>Username</th>
             <th>First Name</th>
             <th>Last Name</th>
+            <th> </th>
+            <th> </th>
           </tr>
           <tr>
             <td>
-              <input
-                value={user.password}
-                onChange={(e) => setUser({ ...user, password: e.target.value })}
-              />
-              <input
-                value={user.username}
-                onChange={(e) => setUser({ ...user, username: e.target.value })}
-              />
+              <div style={{ display: "flex", flexFlow: "row nowrap" }}>
+                <input
+                  className="form-control"
+                  placeholder="Username"
+                  value={user.username}
+                  onChange={(e) =>
+                    setUser({ ...user, username: e.target.value })
+                  }
+                />
+                <input
+                  value={user.password}
+                  placeholder="Password"
+                  className="form-control  ms-2"
+                  onChange={(e) =>
+                    setUser({ ...user, password: e.target.value })
+                  }
+                />
+              </div>
             </td>
             <td>
               <input
+                className="form-control"
+                placeholder="First Name"
                 value={user.firstName}
                 onChange={(e) =>
                   setUser({ ...user, firstName: e.target.value })
@@ -85,12 +99,15 @@ function UserTable() {
             </td>
             <td>
               <input
+                className="form-control"
+                placeholder="Last Name"
                 value={user.lastName}
                 onChange={(e) => setUser({ ...user, lastName: e.target.value })}
               />
             </td>
             <td>
               <select
+                className="form-control"
                 value={user.role}
                 onChange={(e) => setUser({ ...user, role: e.target.value })}
               >
@@ -101,13 +118,13 @@ function UserTable() {
               </select>
             </td>
             <td className="text-nowrap">
-              <BsFillCheckCircleFill
-                onClick={updateUser}
-                className="me-2 text-success fs-1 text"
-              />
               <BsPlusCircleFill
                 onClick={createUser}
-                className="text-success fs-1 text"
+                className="text-primary fs-1 text me-2"
+              />
+              <BsFillCheckCircleFill
+                onClick={updateUser}
+                className=" text-success fs-1 text"
               />
             </td>
           </tr>
@@ -120,12 +137,13 @@ function UserTable() {
               </td>
               <td>{user.firstName}</td>
               <td>{user.lastName}</td>
+              <td></td>
               <td className="text-nowrap">
-                <button className="btn btn-danger me-2">
-                  <BsTrash3Fill onClick={() => deleteUser(user)} />
-                </button>
                 <button className="btn btn-warning me-2">
                   <BsPencil onClick={() => selectUser(user)} />
+                </button>
+                <button className="btn btn-danger me-2">
+                  <BsTrash3Fill onClick={() => deleteUser(user)} />
                 </button>
               </td>
             </tr>

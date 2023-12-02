@@ -21,6 +21,8 @@ function Signup() {
       <h1>Signup</h1>
       {error && <div>{error}</div>}
       <input
+        className="form-control w-100"
+        placeholder="user name"
         value={credentials.username}
         onChange={(e) =>
           setCredentials({
@@ -30,6 +32,8 @@ function Signup() {
         }
       />
       <input
+        className="form-control w-100 mt-1"
+        placeholder="password"
         value={credentials.password}
         onChange={(e) =>
           setCredentials({
@@ -38,7 +42,9 @@ function Signup() {
           })
         }
       />
-      <button onClick={signup}>Signup</button>
+      <button className="btn btn-primary mt-1 me-2 w-100" onClick={signup}>
+        Signup
+      </button>
     </div>
   );
 }
